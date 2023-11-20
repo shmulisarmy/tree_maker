@@ -9,7 +9,7 @@ def draw_branch(branch_size, main_turtle, angle, depth = 0):
         main_turtle.circle(max(branch_sizes//20 - depth, 1))
         main_turtle.end_fill()
         return
-    for i in range(-30, 31, 30):
+    for i in range(-40, 41, 40):
         # if i == 0: continue
         branching_trutle = turtle.Turtle()
         branching_trutle.speed(0)
